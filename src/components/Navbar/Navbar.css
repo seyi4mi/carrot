@@ -1,0 +1,146 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    min-height: 13vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background: rgb(254, 255, 255);
+    width: 100%;
+    align-items: center;
+}
+
+.navitems {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 35%;
+    margin-right: 30px;
+}
+
+.navbar-logo {
+    margin-right: 200px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Roboto;
+    line-height: 21px;
+}
+
+.logop1 {
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: -0.08em;
+    color: #377949;
+}
+
+.logop2 {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+    color: #074b89;
+    position: relative;
+    right: 2px;
+}
+
+.slogan {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    color: #0b5aa4;
+    position: relative;
+    line-height: 17px;
+    right: 3px;
+}
+
+.nav-links {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.nav-links:hover {
+    color: #7a7a7a;
+    font-size: 16.2px;
+}
+
+.menu-icon {
+    cursor: pointer;
+    display: none;
+    font-size: 23px;
+}
+
+@media screen and (max-width: 970px) {
+    body {
+        overflow-x: hidden;
+    }
+    .menu-icon {
+        display: block;
+    }
+    .navitems {
+        position: absolute;
+        right: 0px;
+        display: flex;
+        flex-direction: column;
+        height: 45vh;
+        align-items: center;
+        width: 100%;
+        top: 13vh;
+        background: rgba(245, 245, 239, 0.966);
+        margin-right: 0px;
+        left: 100%;
+        transition: all 0.5s ease-in;
+    }
+    .active {
+        left: 0%;
+    }
+    .nav-links {
+        height: 80px;
+        border-bottom: 2px solid transparent;
+    }
+    .nav-links:hover {
+        font-size: 17px;
+        border-bottom: 2px solid #0b5aa4;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar-logo {
+        margin-right: 100px;
+    }
+    .logop1 {
+        font-size: 27px;
+    }
+    .logop2 {
+        font-size: 19px;
+        color: #074b89;
+        position: relative;
+        right: 2px;
+    }
+    .slogan {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .navbar-logo {
+        margin-right: 60px;
+    }
+    .logop1 {
+        font-size: 23px;
+    }
+    .logop2 {
+        font-size: 16px;
+        color: #074b89;
+        position: relative;
+        right: 2px;
+    }
+    .slogan {
+        font-size: 11px;
+    }
+    .menu-icon {
+        font-size: 23px;
+    }
+}

@@ -1,0 +1,78 @@
+.team-section {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.team-container {
+    width: 80%;
+    margin: auto;
+}
+
+.team-header {
+    color: #074b89;
+    font-size: 40px;
+    font-family: Monda;
+    text-align: center;
+    text-shadow: 3px 3px 10px rgb(195, 196, 202);
+}
+
+.all-teams {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-top: 40px;
+}
+
+.team {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.memeber-frame {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    background-color: #e9f0eb;
+    height: 200px;
+    width: 200px;
+    border-radius: 190px;
+    box-shadow: 3px 3px 10px rgb(195, 196, 202);
+}
+
+.memeber-img {
+    height: 170px;
+    width: 170px;
+}
+
+.linkden {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -38px;
+    z-index: 1;
+}
+
+.team-info {
+    width: 100%;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.member-name {
+    color: #007ab7;
+    font-family: Monda;
+    font-size: 22px;
+}
+
+.member-role {
+    color: #5f5c5c;
+    font-family: Poppins;
+    font-size: 15px;
+}

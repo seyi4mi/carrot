@@ -1,0 +1,122 @@
+input {
+    font-family: "FontAwesome", "Poppins";
+}
+
+.contact {
+    margin: 0px auto;
+    min-height: 75vh;
+    width: 100%;
+    background: #f4f6f5;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contact-title {
+    font-family: Monda;
+    color: #074b89;
+}
+
+.contact-info {
+    color: #676464;
+    max-width: 500px;
+    line-height: 65px;
+    padding-left: 50px;
+    margin: auto;
+    margin-top: 127px;
+    font-size: 19px;
+    border-radius: 8px;
+    background-color: rgb(243, 243, 243);
+    font-family: Monda;
+}
+
+.contact-info i {
+    margin-right: 15px;
+    font-size: 29px;
+    color: #074b89;
+}
+
+.contact-form {
+    max-width: 700px;
+    margin-right: 50px;
+}
+
+.intouch-title {
+    color: #074b89;
+    font-family: Monda;
+    font-size: 33px;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+
+.contact-info,
+.contact-form {
+    flex: 1;
+}
+
+.text-box,
+.msg-box {
+    background: rgb(238, 238, 238);
+    color: black;
+    border: none;
+    width: calc(50% - 10px);
+    height: 50px;
+    padding: 12px;
+    font-size: 17px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.308);
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.text-box:first-child {
+    margin-right: 15px;
+}
+
+.msg-box {
+    width: 100%;
+    min-height: 200px;
+    max-height: 400px;
+    resize: vertical;
+    font-family: Poppins;
+}
+
+.submit-btn {
+    float: right;
+    background: #074b89;
+    font-family: Poppins;
+    color: #fff;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 12px;
+}
+
+.submit-btn:hover {
+    background: #053766;
+}
+
+@media screen and (max-width: 955px) {
+    .contacts {
+        flex-direction: column;
+    }
+    .contact-info,
+    .contact-form {
+        margin: 30px 50px;
+    }
+    .contact-form .text-box {
+        width: 100%;
+    }
+}

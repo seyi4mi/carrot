@@ -1,0 +1,32 @@
+.vid-container {
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+}
+
+.greenbg {
+    background-color: #278641;
+    min-height: 49vh;
+    z-index: -1;
+}
+
+.video {
+    width: 45rem;
+    margin: -150px auto;
+}
+
+.vid-title {
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+    font-family: Monda;
+    font-size: 50px;
+}
+
+.underline {
+    background-color: white;
+    text-align: center;
+    width: 17rem;
+    height: 5px;
+    margin: 19px auto;
+}

@@ -1,0 +1,12 @@
+.footer {
+    background-color: #377949;
+    height: 55px;
+    color: rgb(226, 226, 226);
+    font-family: Poppins;
+    text-align: center;
+    font-size: 15px;
+}
+
+.footer-text {
+    padding-top: 15px;
+}
