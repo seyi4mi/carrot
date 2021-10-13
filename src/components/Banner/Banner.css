@@ -50,12 +50,18 @@ img {
 
 @media screen and (max-width: 299px) {
     .banner-container h3 {
-        font-size: 42px;
+        font-size: 40px;
     }
 }
 
-@media screen and (max-width: 298px) and (min-width: 100px) {
+@media screen and (max-width: 260px) {
     .banner-container h3 {
-        font-size: 34px;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 170px) {
+    .banner-container h3 {
+        font-size: 13px;
     }
 }
