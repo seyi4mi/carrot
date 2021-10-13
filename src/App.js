@@ -2,7 +2,7 @@ import React from "react"
 import "./App.css"
 import Navbar from "./components/Navbar/Navbar"
 import Banner from "./components/Banner/Banner"
-// import Aboutus from "./components/About/Aboutus"
+import Aboutus from "./components/About/Aboutus"
 // import VidSection from "./components/Video/VidSection"
 // import Services from "./components/Services/Services"
 // import OurTeam from "./components/Team/OurTeam"
@@ -13,12 +13,12 @@ function App() {
 	return (
 		<>
 			<Navbar />
-			<Banner /> {/* <Aboutus /> */}{" "}
+			<Banner /> <Aboutus />{" "}
 			{/* <VidSection />
-            			<Services />
-            			<OurTeam /> */}{" "}
+                        			<Services />
+                        			<OurTeam /> */}{" "}
 			{/* <Contact />
-            			<Footer />{" "} */}{" "}
+                        			<Footer />{" "} */}{" "}
 		</>
 	)
 }
