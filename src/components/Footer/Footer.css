@@ -1,12 +1,24 @@
 .footer {
     background-color: #377949;
-    height: 55px;
+    min-height: 40px;
     color: rgb(226, 226, 226);
     font-family: Poppins;
-    text-align: center;
-    font-size: 15px;
+    font-size: 13px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-.footer-text {
-    padding-top: 15px;
+@media screen and (max-width: 590px) {
+    .footer {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .footer {
+        font-size: 6px;
+    }
 }

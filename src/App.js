@@ -7,7 +7,7 @@ import VidSection from "./components/Video/VidSection"
 // import Services from "./components/Services/Services"
 // import OurTeam from "./components/Team/OurTeam"
 // import Contact from "./components/Contact/Contact"
-// import Footer from "./components/Footer/Footer"
+import Footer from "./components/Footer/Footer"
 
 function App() {
 	return (
@@ -15,11 +15,8 @@ function App() {
 			<Navbar />
 			<Banner />
 			<Aboutus />
-			<VidSection />
-			{/* <Services /> */}
-			{/* <OurTeam /> */}
-			{/* <Contact /> */}
-			{/* <Footer /> */}
+			<VidSection /> {/* <Services /> */} {/* <OurTeam /> */}{" "}
+			{/* <Contact /> */} <Footer />
 		</>
 	)
 }
