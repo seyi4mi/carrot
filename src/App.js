@@ -6,20 +6,19 @@ import Banner from "./components/Banner/Banner"
 // import VidSection from "./components/Video/VidSection"
 // import Services from "./components/Services/Services"
 // import OurTeam from "./components/Team/OurTeam"
-import Contact from "./components/Contact/Contact"
-import Footer from "./components/Footer/Footer"
+// import Contact from "./components/Contact/Contact"
+// import Footer from "./components/Footer/Footer"
 
 function App() {
 	return (
 		<>
 			<Navbar />
-			<Banner />
-			{/* <Aboutus /> */}
+			<Banner /> {/* <Aboutus /> */}{" "}
 			{/* <VidSection />
-			<Services />
-			<OurTeam /> */}
-			<Contact />
-			<Footer />{" "}
+            			<Services />
+            			<OurTeam /> */}{" "}
+			{/* <Contact />
+            			<Footer />{" "} */}{" "}
 		</>
 	)
 }

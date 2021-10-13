@@ -23,12 +23,12 @@ nav {
     cursor: pointer;
     text-decoration: none;
     font-family: Roboto;
-    line-height: 21px;
+    line-height: 20px;
 }
 
 .logop1 {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 28px;
     letter-spacing: -0.08em;
     color: #377949;
 }
@@ -46,7 +46,7 @@ nav {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 12px;
     color: #0b5aa4;
     position: relative;
     line-height: 17px;
@@ -58,24 +58,22 @@ nav {
     text-decoration: none;
     font-family: Poppins;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .nav-links:hover {
-    color: #7a7a7a;
-    font-size: 16.2px;
+    color: #353535;
+    font-size: 15.3px;
 }
 
 .menu-icon {
     cursor: pointer;
     display: none;
-    font-size: 23px;
+    font-size: 21px;
+    color: #1d1d1d;
 }
 
-@media screen and (max-width: 970px) {
-    body {
-        overflow-x: hidden;
-    }
+@media screen and (max-width: 950px) {
     .menu-icon {
         display: block;
     }
@@ -88,21 +86,20 @@ nav {
         align-items: center;
         width: 100%;
         top: 13vh;
-        background: rgba(245, 245, 239, 0.966);
+        background: rgb(254, 255, 255);
+        border-top: 5px solid #074b89;
         margin-right: 0px;
-        left: 100%;
-        transition: all 0.5s ease-in;
+        left: -100%;
+        transition: all 0.5s ease-out;
     }
     .active {
         left: 0%;
     }
     .nav-links {
-        height: 80px;
-        border-bottom: 2px solid transparent;
+        font-size: 17px;
     }
     .nav-links:hover {
-        font-size: 17px;
-        border-bottom: 2px solid #0b5aa4;
+        font-size: 13.3px;
     }
 }
 
@@ -111,16 +108,19 @@ nav {
         margin-right: 100px;
     }
     .logop1 {
-        font-size: 27px;
+        font-size: 22px;
     }
     .logop2 {
-        font-size: 19px;
+        font-size: 17px;
         color: #074b89;
         position: relative;
         right: 2px;
     }
     .slogan {
-        font-size: 12px;
+        font-size: 11.6px;
+    }
+    .nav-links {
+        font-size: 14px;
     }
 }
 
@@ -129,7 +129,7 @@ nav {
         margin-right: 60px;
     }
     .logop1 {
-        font-size: 23px;
+        font-size: 20px;
     }
     .logop2 {
         font-size: 16px;
@@ -142,5 +142,31 @@ nav {
     }
     .menu-icon {
         font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 230px) {
+    .navbar-logo {
+        margin-right: 10px;
+        line-height: 13px;
+    }
+    .logop1 {
+        font-size: 16px;
+    }
+    .logop2 {
+        font-size: 12px;
+        color: #074b89;
+        position: relative;
+        right: 2px;
+    }
+    .slogan {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .menu-icon {
+        font-size: 15px;
+    }
+    .nav-links {
+        font-size: 12px;
     }
 }
