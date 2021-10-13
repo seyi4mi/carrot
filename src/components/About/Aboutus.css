@@ -64,10 +64,13 @@
     }
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 890px) {
     .about-img {
         height: 310px;
         width: 310px;
+    }
+    .content {
+        width: 100%;
     }
 }
 
