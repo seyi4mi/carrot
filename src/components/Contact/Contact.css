@@ -3,8 +3,8 @@ input {
 }
 
 .contact {
-    margin: 0px auto;
-    min-height: 75vh;
+    margin: 10px auto;
+    min-height: 55vh;
     width: 100%;
     background: #f4f6f5;
 }
@@ -19,6 +19,7 @@ input {
 .contact-title {
     font-family: Monda;
     color: #074b89;
+    font-size: 27px;
 }
 
 .contact-info {
@@ -26,12 +27,13 @@ input {
     max-width: 500px;
     line-height: 65px;
     padding-left: 50px;
-    margin: auto;
-    margin-top: 127px;
+    margin-top: 80px;
+    margin-right: 70px;
     font-size: 19px;
     border-radius: 8px;
     background-color: rgb(243, 243, 243);
     font-family: Monda;
+    width: 50%;
 }
 
 .contact-info i {
@@ -42,7 +44,8 @@ input {
 
 .contact-form {
     max-width: 700px;
-    margin-right: 50px;
+    margin-right: 35px;
+    width: 50%;
 }
 
 .intouch-title {
@@ -54,11 +57,6 @@ input {
     padding-bottom: 30px;
 }
 
-.contact-info,
-.contact-form {
-    flex: 1;
-}
-
 .text-box,
 .msg-box {
     background: rgb(238, 238, 238);
@@ -67,7 +65,7 @@ input {
     width: calc(50% - 10px);
     height: 50px;
     padding: 12px;
-    font-size: 17px;
+    font-size: 15px;
     border-radius: 5px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.308);
     margin-bottom: 20px;
@@ -92,16 +90,15 @@ input {
     font-family: Poppins;
     color: #fff;
     border: none;
-    width: 120px;
-    height: 40px;
-    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-weight: 500;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
-    margin-top: 12px;
 }
 
 .submit-btn:hover {
@@ -118,5 +115,38 @@ input {
     }
     .contact-form .text-box {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .contact-title {
+        font-size: 26px;
+    }
+    .contact-info {
+        width: 100%;
+    }
+    .contact-info i {
+        font-size: 23px;
+    }
+    .intouch-title {
+        font-size: 30px;
+    }
+    .contact-form {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .contact-title {
+        font-size: 19px;
+    }
+    .contact-info {
+        font-size: 13px;
+    }
+    .contact-info i {
+        font-size: 10px;
+    }
+    .intouch-title {
+        font-size: 19px;
     }
 }
