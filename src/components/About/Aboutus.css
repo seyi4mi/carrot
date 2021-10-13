@@ -1,15 +1,15 @@
 .about-us {
-    margin: 50px auto;
+    margin: 58px auto;
     width: 100%;
-    min-height: 70vh;
+    min-height: 55vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .about-img {
-    height: 400px;
-    width: 400px;
+    height: 380px;
+    width: 380px;
     max-width: 100%;
     border-radius: 100%;
 }
