@@ -138,15 +138,26 @@ input {
 
 @media screen and (max-width: 290px) {
     .contact-title {
-        font-size: 19px;
+        font-size: 16px;
     }
     .contact-info {
-        font-size: 13px;
+        font-size: 9px;
+        margin: 0px;
+        padding: 0px;
+        flex-wrap: wrap;
     }
     .contact-info i {
         font-size: 10px;
     }
     .intouch-title {
-        font-size: 19px;
+        font-size: 14px;
+    }
+    .text-box,
+    .msg-box {
+        font-size: 9px;
+        padding: 9px;
+    }
+    .text-box:first-child {
+        margin-right: 0px;
     }
 }

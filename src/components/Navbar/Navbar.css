@@ -8,6 +8,7 @@ nav {
     background: rgb(254, 255, 255);
     width: 100%;
     align-items: center;
+    z-index: 1;
 }
 
 .navitems {

@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar/Navbar"
 import Banner from "./components/Banner/Banner"
 import Aboutus from "./components/About/Aboutus"
 import VidSection from "./components/Video/VidSection"
-// import Services from "./components/Services/Services"
+import Services from "./components/Services/Services"
 // import OurTeam from "./components/Team/OurTeam"
 import Contact from "./components/Contact/Contact"
 import Footer from "./components/Footer/Footer"
@@ -15,7 +15,8 @@ function App() {
 			<Navbar />
 			<Banner />
 			<Aboutus />
-			<VidSection /> {/* <Services /> */} {/* <OurTeam /> */} <Contact />
+			<VidSection />
+			<Services /> {/* <OurTeam /> */} <Contact />
 			<Footer />
 		</>
 	)

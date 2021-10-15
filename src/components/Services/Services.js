@@ -9,48 +9,58 @@ function Cards() {
 	return (
 		<>
 			<div className="service-section" id="services">
-				<div className="services">
-					<h1 className="service-title"> Our Services </h1>{" "}
-					<div className="greyline"> </div>{" "}
-				</div>{" "}
-				<div className="card-contianer">
-					<div className="card">
-						<img className="card-img" src={edu} alt="" />
-						<h1 className="card-header"> Education </h1>{" "}
-						<p className="card-text">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua{" "}
-						</p>{" "}
-						<div className="bluebottom"> </div>{" "}
+				<div className="service-container">
+					<div className="services">
+						<h1 className="service-title"> Our Services </h1>{" "}
+						<div className="greyline"> </div>{" "}
 					</div>{" "}
-					<div className="card">
-						<img className="card-img2" src={techSupport} alt="" />
-						<h1 className="card-header"> Technical Support </h1>{" "}
-						<p className="card-text">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua{" "}
-						</p>{" "}
-						<div className="greenbottom"> </div>{" "}
+					<div className="card-contianer">
+						<div className="card">
+							<img className="card-img img1 " src={edu} alt="" />
+							<div className="card-content">
+								<h1 className="card-header"> Education </h1>{" "}
+								<p className="card-text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+									do eiusmod tempor incididunt ut labore et dolore magna aliqua{" "}
+								</p>{" "}
+							</div>{" "}
+							<div className="bluebottom"> </div>
+						</div>{" "}
+						<div className="card">
+							<img className="card-img img2" src={techSupport} alt="" />
+							<div className="card-content">
+								<h1 className="card-header"> Technical Support </h1>{" "}
+								<p className="card-text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+									do eiusmod tempor incididunt ut labore et dolore magna aliqua{" "}
+								</p>{" "}
+							</div>
+							<div className="greenbottom"> </div>{" "}
+						</div>{" "}
+						<div className="card">
+							<img className="card-img img3" src={marketplc} alt="" />
+							<div className="card-content">
+								<h1 className="card-header"> Marketplace </h1>{" "}
+								<p className="card-text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+									do eiusmod tempor incididunt ut labore et dolore magna aliqua{" "}
+								</p>{" "}
+							</div>
+							<div className="greenbottom"> </div>{" "}
+						</div>{" "}
+						<div className="card">
+							<img className="card-img img4" src={funding} alt="" />
+							<div className="card-content">
+								<h3 className="card-header"> Funding </h3>{" "}
+								<p className="card-text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+									do eiusmod tempor incididunt ut labore et dolore magna aliqua{" "}
+								</p>{" "}
+							</div>
+							<div className=" bluebottom"> </div>{" "}
+						</div>{" "}
 					</div>{" "}
-					<div className="card">
-						<img className="card-img3" src={marketplc} alt="" />
-						<h1 className="card-header"> Marketplace </h1>{" "}
-						<p className="card-text">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua{" "}
-						</p>{" "}
-						<div className="bluebottom"> </div>{" "}
-					</div>{" "}
-					<div className="card">
-						<img className="card-img4" src={funding} alt="" />
-						<h3 className="card-header"> Funding </h3>{" "}
-						<p className="card-text">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua{" "}
-						</p>{" "}
-						<div className="greenbottom"> </div>{" "}
-					</div>{" "}
-				</div>{" "}
+				</div>
 			</div>{" "}
 		</>
 	)
