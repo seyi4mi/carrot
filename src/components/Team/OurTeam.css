@@ -9,6 +9,11 @@
     margin: auto;
 }
 
+.meet-greenbg {
+    width: 100%;
+    color: white;
+}
+
 .team-header {
     color: #074b89;
     font-size: 40px;
@@ -37,7 +42,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    padding-left: 15px;
+    justify-content: center;
     background-color: #e9f0eb;
     height: 200px;
     width: 200px;
@@ -56,7 +61,6 @@
     position: absolute;
     margin-top: 50px;
     margin-left: -38px;
-    z-index: 1;
 }
 
 .team-info {
@@ -77,8 +81,56 @@
     font-size: 15px;
 }
 
-@media screen and(max-width: 768px) {
+@media screen and (max-width: 968px) {
     .all-teams {
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 598px) {
+    .all-teams {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .team-header {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .memeber-frame {
+        height: 150px;
+        width: 150px;
+    }
+    .memeber-img {
+        height: 130px;
+        width: 130px;
+    }
+    .linkden {
+        height: 40px;
+        width: 40px;
+        margin-top: 45px;
+    }
+    .member-name {
+        color: #007ab7;
+        font-family: Monda;
+        font-size: 16px;
+    }
+    .member-role {
+        color: #5f5c5c;
+        font-family: Poppins;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .team-header {
+        font-size: 25px;
+    }
+    .team-container {
+        width: 80%;
+        margin: 0px;
     }
 }
